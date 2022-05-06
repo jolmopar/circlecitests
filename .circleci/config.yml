@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner-test:
     machine: true
-    resource_class: jolmopar/m1macbook
+    resource_class: medium
     steps:
       - run: echo "Hi I'm on Runners!"
